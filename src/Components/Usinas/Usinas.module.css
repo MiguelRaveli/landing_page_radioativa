@@ -1,0 +1,96 @@
+.Usinas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  background-image: url("../../img/usinas.jpg");
+  width: 95vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+
+.img_fusao {
+  background-image: url("../../img/fusao.jpg");
+  width: 55vw;
+  height: 55vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.img_fissao {
+  background-image: url("../../img/fissao.jpg");
+  width: 55vw;
+  height: 55vh;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+
+.titulo h1 {
+  font-size: 7vh;
+  padding: 10px;
+  height: 1px;
+  width: 95vw;
+}
+
+.primeiro_paragrafo {
+  width: 95vw;
+  text-align: justify;
+  font-size: 4vh;
+  padding: 10px;
+  border-bottom: solid white;
+}
+
+.primeiro_paragrafo span {
+  font-size: 6vh;
+}
+
+.segundo_paragrafo {
+  text-align: justify;
+  width: 95vw;
+  font-size: 4vh;
+  padding: 10px;
+}
+
+.segundo_paragrafo p {
+  text-align: justify;
+  width: 95vw;
+  font-size: 4vh;
+  padding: 10px;
+}
+
+.segundo_paragrafo span {
+  font-size: 6vh;
+}
+.texto_esquerda {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.texto_direita p {
+  width: 40vw;
+}
+.texto_esquerda p {
+  width: 40vw;
+}
+
+.texto_direita {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fusao {
+  display: flex;
+}
+
+.hidrogenio{
+    display: flex;
+}

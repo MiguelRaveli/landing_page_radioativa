@@ -1,0 +1,53 @@
+.Conceitos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img {
+  background-image: url("../../img/elemento_radioativo.png");
+  width: 30vw;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 10px;
+}
+
+.texto_esquerda {
+  display: flex;
+  flex-direction: column;
+  width: 32vw;
+
+  border-right: solid white;
+  margin-right  : 10px;
+}
+
+.titulo h1 {
+  font-size: 7vh;
+  padding: 20px;
+  height: 1px;
+}
+
+.primeiro_paragrafo {
+  width: 30vw;
+  font-size: 4vh;
+  padding: 20px;
+}
+
+.primeiro_paragrafo span {
+  font-size: 6vh;
+}
+
+.segundo_paragrafo{
+    text-align: justify;
+    width: 60vw;
+    font-size: 4vh;
+    padding: 20px;
+    
+}
+
+.segundo_paragrafo span {
+    font-size: 6vh;
+    
+  }
